@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  padding: 0;
+}
+.img{
+  width: 260px;
+  border-radius: 7px;
+}
+.templetes{
+  /* width: 100%; */
+  display: inline-flex;
+  flex-direction: row;
+  /* border:1px solid black;  */
+  margin:30px 0 0 50px ; 
+}
+.container{
+  /* margin-top: 50px; */
+  /* width: 22%; */
+  height: 390px;
+  background-color: gray;
+  border: none;
+  border-radius: 7px;
+  display:grid;
+  grid-template-rows: 140px 200px;
+}
+.about{
+  display:grid;
+  grid-template-columns: 100px 100px;
+  grid-gap: 50px;
+  margin-left: 5px;
+}
+.content{
+  background-color: darkgray;
+  text-align: center;
+}
+.but{
+  display: grid;
+  column-gap: 40px;
+  grid-template-columns: 100px 100px;
+}
+button{
+  border: none;
+  margin:10px 0 0 17px;
+  font-size: 20px;
+  border-radius: 7px;
+}
+.head{
+  display: grid;
+  grid-template-columns: 100px 200px;
+  height: 560px;
+  width: 100%;
+  background-image: linear-gradient(to bottom right,#0fbed8,#22e4ac);
+}
+.logo{
+  margin: 40px 0 0 30px;
+  width: 150%;
+  height: 15%;
+}
+.name{
+  max-width: 130%;
+  height: 100%;
+}
+.footer{
+  margin-top: 30px;
+  height: 250px;
+  width: 100%;
+  background:grey;
+  float: bottom;
+}
+.tm{
+  text-align: center;
+  padding-top: 50px;
+}
+.fl{
+  max-width: 12%;
+  height: auto;
+  display: block;
+  margin: 0 auto 0 auto ;
+}
